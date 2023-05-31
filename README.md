@@ -1,2 +1,2 @@
 # arxivtools
-Python program that extract information from arxiv pd reprints and creates bibtex entry (EVE 198 example) 
+Python program that extracts information from an arXiv pdf reprint and creates a bibtex entry (EVE 198 example) 
