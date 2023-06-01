@@ -26,6 +26,7 @@ def getauthors(arxivid, sr):
     return authors
 
 
+# extract arxiv ID from text of pdf file
 def getpdfarxivID(pdfname):
     reader = PdfReader(pdfname)
     for j in range(0, len(reader.pages)-1):
@@ -39,6 +40,7 @@ def getpdfarxivID(pdfname):
     return False
 
 
+# get properties for biblio from arxiv site
 def getbibentry(paper, arxivid, search):
     bibentry = {}
     bibentry["title"] = str(paper.title)
